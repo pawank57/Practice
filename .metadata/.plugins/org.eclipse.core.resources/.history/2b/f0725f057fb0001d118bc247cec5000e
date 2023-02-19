@@ -4,6 +4,8 @@ package com.cybage;
  * 1: By extending thread class.
  * 2: By implementing runnable interface.
  * Thread based multi tasking:
+ * 
+ * 
  * */
 
 class myThread extends Thread{
