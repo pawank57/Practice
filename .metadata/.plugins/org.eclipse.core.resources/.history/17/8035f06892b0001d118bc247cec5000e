@@ -7,10 +7,9 @@ package com.cybage;
  * :InSufficientFundsException, etc */
 
 
-
  class tooYoungException extends RuntimeException{
 	tooYoungException(String s){
-		super(s);					//To make description available to default exception handler.
+		super(s);
 	}
 }
 
@@ -23,17 +22,6 @@ class tooOldException extends RuntimeException{
 
 public class Program{
 	public static void main(String[] args) {
-//		int age = 85;
-//		int age = 10;
-		int age = 25;
-		if (age > 60) {
-			throw new tooOldException("Your age is too much.");
-		}
-		else if (age < 18) {
-			throw new tooYoungException("You are too young to get married.");
-		}
-		else {
-			System.out.println("You will get match details soon by email.");
-		}
+		
 	}
 }
