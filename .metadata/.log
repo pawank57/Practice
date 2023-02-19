@@ -6328,3 +6328,63 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-19 23:28:03.173
 !MESSAGE executing callback sts4.classpath.AsNvDuAS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:58.733
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:58.735
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:58.736
+!MESSAGE buffering callback sts4.classpath.AsNvDuAS customisedExceptions false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:58.737
+!MESSAGE executing callback sts4.classpath.AsNvDuAS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.058
+!MESSAGE executing callback sts4.classpath.AsNvDuAS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.192
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.193
+!MESSAGE buffering callback sts4.classpath.AsNvDuAS customisedExceptions false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.193
+!MESSAGE executing callback sts4.classpath.AsNvDuAS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 01:23:59.202
+!MESSAGE executing callback sts4.classpath.AsNvDuAS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:08.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:08.831
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:08.832
+!MESSAGE buffering callback sts4.classpath.AsNvDuAS customisedExceptions false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:08.832
+!MESSAGE executing callback sts4.classpath.AsNvDuAS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:08.842
+!MESSAGE executing callback sts4.classpath.AsNvDuAS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:09.301
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:09.302
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:09.303
+!MESSAGE buffering callback sts4.classpath.AsNvDuAS customisedExceptions false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:09.303
+!MESSAGE executing callback sts4.classpath.AsNvDuAS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-20 02:27:09.309
+!MESSAGE executing callback sts4.classpath.AsNvDuAS SUCCESS [done]
