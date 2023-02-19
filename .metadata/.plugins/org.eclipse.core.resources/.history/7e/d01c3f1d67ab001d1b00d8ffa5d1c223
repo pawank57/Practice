@@ -1,0 +1,10 @@
+package com.cybage;
+
+
+//In our program if there is a possibility of rising checked exception,
+//then it is compulsory to handle that checked exception otherwise
+//we will get compile time error saying
+//Unreported error, must be caught or declared to be thrown.
+public class Program{
+	
+}

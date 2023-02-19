@@ -1,0 +1,12 @@
+package com.cybage;
+
+/**Ways to define a thread
+ * 1: By extending thread class
+ * 2: By implementing runnable interface.
+ * */
+
+public class Program {
+	public static void main(String[] args) {
+		
+	}
+}

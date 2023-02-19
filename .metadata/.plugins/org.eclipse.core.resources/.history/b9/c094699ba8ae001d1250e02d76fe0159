@@ -1,0 +1,42 @@
+package com.cybage;
+
+/**Ways to define a thread
+ * 1: By extending thread class.
+ * 2: By implementing runnable interface.
+ * Thread based multi tasking:
+ * 
+ * 
+ * */
+
+class A extends Thread{
+//	public void run() {
+//		for( int i = 0; i <= 5; i++) {
+//			System.out.println("hello");
+//		}
+//	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		for( int i = 0; i <= 5; i++) {
+			while (i == 2) {
+				try {
+					sleep(1000);
+					System.out.println("hello");
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+}
+
+public class Program {
+	public static void main(String[] args) {
+		A a = new A();
+		a.run();
+	}
+}

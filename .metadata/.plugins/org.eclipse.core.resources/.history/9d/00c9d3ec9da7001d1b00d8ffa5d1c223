@@ -1,0 +1,14 @@
+package com.cybage;
+
+public class Program{
+	
+	static ArithmeticException e = new ArithmeticException();
+	
+	public static void main(String[] args) {
+		throw new ArithmeticException("/ by zero");
+	}
+	
+//	public static void main(String[] args) {
+//		System.out.println(10/0);
+//	}
+}
