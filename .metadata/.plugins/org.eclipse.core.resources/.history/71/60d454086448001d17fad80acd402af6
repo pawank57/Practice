@@ -1,0 +1,30 @@
+package org.cybage;
+
+
+class A {
+	public void sum(int a, int b) {
+		System.out.println(a + b);
+	}
+}
+
+class B extends A{
+	@Override
+	public void sum(int a, int b) {
+		System.out.println(a + b);
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+		A a = new A();
+		a.sum(10, 20);
+		
+		B b = new B();
+		b.sum(20, 30);
+		
+		B b1 = new A();
+		
+		
+		
+	}
+}

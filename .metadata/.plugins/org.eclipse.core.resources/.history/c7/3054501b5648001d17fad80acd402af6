@@ -1,0 +1,16 @@
+package org.cybage;
+
+
+class A {
+	public void method1();
+}
+
+class B{
+	
+}
+
+public class Program {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package org.cybage;
+
+
+class A {
+	public void method1(int a, int b) {
+		System.out.println(a + b);
+	}
+}
+
+class B extends A{
+	public void method1(double a, double b) {
+		
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+		
+	}
+}
