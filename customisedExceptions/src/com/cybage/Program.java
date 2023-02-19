@@ -6,6 +6,8 @@ package com.cybage;
  * :TooOldException
  * :InSufficientFundsException, etc */
 
+
+
  class tooYoungException extends RuntimeException{
 	tooYoungException(String s){
 		super(s);					//To make description available to default exception handler.
