@@ -14,13 +14,17 @@ package com.cybage;
  * */
 
 public class Program{
+	public static void main(String[] args) {
+//		static int x = 10/0;					//CE: Illegal modifier
+	}
+	
 	public static void m1() {
 		m2();
 	}
 	public static void m2() {
 		m1();
 	}
-	public static void main(String[] args) {	
+	public static void main5(String[] args) {	
 		m2();									//StackOverflowError
 	}
 	
