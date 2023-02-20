@@ -14,7 +14,12 @@ package com.cybage;
  * */
 
 public class Program{
-	public static void main(String[] args) {
+	static {
+		String s = null;
+		s.length();
+	}
+	
+	public static void main6(String[] args) {
 //		static int x = 10/0;					//CE: Illegal modifier
 	}
 	
