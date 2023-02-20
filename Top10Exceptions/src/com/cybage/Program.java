@@ -9,11 +9,14 @@ package com.cybage;
  * 2.Programmatic Exceptions
  * -Exceptions which are rised explicitly either by programmer or by api developer
  * to indicate that something goes wrong are called programmatic exceptions.
- * eg: TooOldException, tooYoungException, illegalArgumentException, etc
+ * eg: TooOldException, tooYoungException, illegalArgumentException, etc.
  * */
 
 public class Program{
 	public static void main(String[] args) {
-	
+		int [ ] arr = new int [ 4 ];
+		System.out.println(arr[0]);
+		System.out.println(arr[10]);
+		
 	}
 }
