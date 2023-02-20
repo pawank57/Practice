@@ -10,13 +10,41 @@ package com.cybage;
  * -Exceptions which are rised explicitly either by programmer or by api developer
  * to indicate that something goes wrong are called programmatic exceptions.
  * eg: TooOldException, tooYoungException, illegalArgumentException, etc.
+ * 
  * */
 
 public class Program{
-	public static void main(String[] args) {
+	public static void m1() {
+		m2();
+	}
+	public static void m2() {
+		m1();
+	}
+	public static void main(String[] args) {	
+		m2();									//StackOverflowError
+	}
+	
+	public static void main4(String[] args) {
+		Object o = new Object();
+		String s = (String) o;					//java.lang.ClassCastException:   //Parent object cannot be typecasted to child.
+	}
+	
+	public static void main3(String[] args) {
+		String s = new String("Pawan");
+		Object o = s;							//Child object can be typecasted to parent.
+		System.out.println(o);
+	}
+	
+	public static void main2(String[] args) {
+		String s = null;
+		System.out.println(s.length());			//RE: java.lang.NullPointerException:
+	}
+	
+	public static void main1(String[] args) {
 		int [ ] arr = new int [ 4 ];
 		System.out.println(arr[0]);
-		System.out.println(arr[10]);
+		System.out.println(arr[10]);			//RE: ArrayIndexOutOfBoundsException:
+//		System.out.println(arr[-10]);
 		
 	}
 }
