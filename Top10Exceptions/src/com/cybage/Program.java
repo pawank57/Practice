@@ -14,25 +14,40 @@ package com.cybage;
  * */
 
 public class Program{
-	public static void main(String[] args) {	
+	
+	
+	//StackOverflowError
+	public static void m2() {
+		m1();
+	}
+	public static void m1() {
+		m2();
+	}
+	public static void main5(String[] args) {	
+		m1();									//StackOverflowError
 	}
 	
+	//ClassCastException
 	public static void main4(String[] args) {
 		Object o = new Object();
 		String s = (String) o;					//java.lang.ClassCastException:   //Parent object cannot be typecasted to child.
 	}
 	
+	//typecasteException
 	public static void main3(String[] args) {
 		String s = new String("Pawan");
 		Object o = s;							//Child object can be typecasted to parent.
 		System.out.println(o);
 	}
 	
+	//NullPointerException
 	public static void main2(String[] args) {
 		String s = null;
 		System.out.println(s.length());			//RE: java.lang.NullPointerException:
 	}
 	
+	
+	//ArrayIndexOutOfBoundsException
 	public static void main1(String[] args) {
 		int [ ] arr = new int [ 4 ];
 		System.out.println(arr[0]);
