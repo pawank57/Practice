@@ -4,7 +4,8 @@ package com.cybage;
  * such type of exceptions are called, customised or used defined exceptions
  * example: TooYoungException
  * :TooOldException
- * :InSufficientFundsException, etc */
+ * :InSufficientFundsException, etc
+ *  */
 
  class tooYoungException extends RuntimeException{
 	tooYoungException(String s){
