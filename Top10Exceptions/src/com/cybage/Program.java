@@ -15,6 +15,11 @@ package com.cybage;
 
 public class Program{
 	public static void main(String[] args) {
+		int x = 0;
+		assert(x > 10);
+	}
+	
+	public static void main8(String[] args) {
 		Thread t =  new Thread();
 		t.start();
 		/**Once the thread is started, it cannot be started again.*/
