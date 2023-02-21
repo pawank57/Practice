@@ -69,6 +69,5 @@ public class Program {
 		System.out.println(arr[0]);
 		System.out.println(arr[10]); // RE: ArrayIndexOutOfBoundsException:
 //		System.out.println(arr[-10]);
-
 	}
 }
