@@ -11,6 +11,10 @@ import java.io.IOException;
  * either Parent to child or child to parent.
  */
 public class Program {
+	public static void main(String[] args) {
+		
+	}
+	
 //	public static void main(String[] args) {
 //		try {
 //			
