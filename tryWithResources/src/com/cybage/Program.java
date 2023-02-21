@@ -5,11 +5,17 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
+/**
+ * The main advantage of try with resource is , we are not required to write finally block 
+ * explicitely bcoz we are not required to close resources explicitely.
+ */
 public class Program {
 	/** Try with multiple resoures */
-	public static void main(String[] args) {
-		try (FileWriter fw = new FileWriter("output.txt"); FileReader fr = new FileReader("input.txt")) {
-
+	public static void main3(String[] args) {
+		try (FileWriter fw = new FileWriter("output.txt"); 
+		FileReader fr = new FileReader("input.txt")) {
+			
 		} catch (Exception e) {
 
 		}
