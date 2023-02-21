@@ -14,9 +14,18 @@ package com.cybage;
  * */
 
 public class Program{
-	static {
-		String s = null;
-		s.length();
+	public static void main(String[] args) {
+		Thread t =  new Thread();
+		t.start();
+		/**Once the thread is started, it cannot be started again.*/
+		t.start();								//RE:java.lang.IllegalThreadStateException
+	}
+	
+	public static void main7(String[] args) {
+//		int i = Integer.parseInt("10");			//10
+		int i = Integer.parseInt("Ten");		//RE: java.lang.NumberFormatException:
+		System.out.println(i);
+		
 	}
 	
 	public static void main6(String[] args) {
