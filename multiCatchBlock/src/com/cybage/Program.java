@@ -10,7 +10,6 @@ import java.io.IOException;
  * In multi catch block there should not be any relation between exception types,
  * either Parent to child or child to parent.
  */
-
 public class Program {
 //	public static void main(String[] args) {
 //		try {
@@ -22,15 +21,15 @@ public class Program {
 
 	public static void main1(String[] args) {
 		try {
-			// System.out.println(10 / 0);
+//			 System.out.println(10 / 0);
 			String s = null;
 			System.out.println(s.length());
 		} catch (ArithmeticException | NullPointerException e) {
-			// e.printStackTrace();
+//			 e.printStackTrace();
 			System.out.println(e);
-			// } catch(NullPointerException | InterruptedException e){
-			// e.getMessage();
-			// }
+//			 } catch(NullPointerException | InterruptedException e){
+//			 e.getMessage();
+//			 }
 		}
 	}
 }
