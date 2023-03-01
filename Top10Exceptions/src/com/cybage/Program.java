@@ -29,7 +29,6 @@ public class Program {
 //		int i = Integer.parseInt("10");			//10
 		int i = Integer.parseInt("Ten"); // RE: java.lang.NumberFormatException:
 		System.out.println(i);
-
 	}
 
 	public static void main6(String[] args) {
