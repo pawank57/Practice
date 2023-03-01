@@ -14,18 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
-	<filteredResources>
-		<filter>
-			<id>1676963269707</id>
-			<name></name>
-			<type>30</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
-			</matcher>
-		</filter>
-	</filteredResources>
->>>>>>> 32bfdf99742c9aae6e7a53eda8d6f9e965a8ca77
 </projectDescription>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>customisedExceptions</name>
+	<name>designPattern</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,11 +14,9 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
 	<filteredResources>
 		<filter>
-			<id>1676963269707</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -27,5 +25,4 @@
 			</matcher>
 		</filter>
 	</filteredResources>
->>>>>>> 32bfdf99742c9aae6e7a53eda8d6f9e965a8ca77
 </projectDescription>
