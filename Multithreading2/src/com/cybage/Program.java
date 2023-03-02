@@ -31,6 +31,7 @@ class myThread1 extends Thread {
 
 class myThread2 extends Thread {
 	public void start() {
+		super.start();
 		System.out.println("Start Method.");
 	}
 
