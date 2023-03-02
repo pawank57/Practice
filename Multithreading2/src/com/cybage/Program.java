@@ -41,7 +41,7 @@ class myThread2 extends Thread {
 }
 
 class myThread3 extends Thread {
-	
+
 }
 
 public class Program {
