@@ -25,7 +25,7 @@ public class Program {
 					// normal method call.
 		for (int i = 0; i <= 5; i++) {
 			System.out.println("main thread."); // executed by main thread.
-			
+
 		}
 	}
 
