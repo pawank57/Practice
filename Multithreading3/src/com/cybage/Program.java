@@ -5,6 +5,8 @@ package com.cybage;
  * 
  * Runnable interface present in Java.lang package, and it contains only one
  * method(run())
+ * 
+ * "Usually this approach is recomended to define a thread."
  */
 
 class myRunnable implements Runnable {
@@ -23,6 +25,7 @@ public class Program {
 					// normal method call.
 		for (int i = 0; i <= 5; i++) {
 			System.out.println("main thread."); // executed by main thread.
+
 		}
 	}
 
