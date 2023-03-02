@@ -40,9 +40,24 @@ class myThread2 extends Thread {
 	}
 }
 
+class myThread3 extends Thread {
+	
+}
+
 public class Program {
+	public static void main(String[] args) throws InterruptedException {
+		myThread3 t3 = new myThread3();
+		t3.start();
+		System.out.println("Thread Started.");
+		t3.sleep(1000);
+		System.out.println("Waiting...");
+//		t3.start(); // java.lang.IllegalThreadStateException
+		t3.run();
+		System.out.println("Thread Running.");
+	}
+
 	// Overriding of Start method.
-	public static void main(String[] args) {
+	public static void main3(String[] args) {
 		myThread2 t2 = new myThread2();
 		t2.start();
 		System.out.println("Main method.");
