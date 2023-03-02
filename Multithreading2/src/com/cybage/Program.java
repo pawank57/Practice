@@ -8,6 +8,9 @@ package com.cybage;
  * executed, which has empty implementation hence we wont get any output.
  */
 
+/**
+ * Defining a thread By extending thread class
+ * */
 class myThread extends Thread {
 	public void run() {
 		System.out.println("No-Arg run method");
@@ -41,7 +44,7 @@ class myThread2 extends Thread {
 }
 
 class myThread3 extends Thread {
-	
+
 }
 
 public class Program {
