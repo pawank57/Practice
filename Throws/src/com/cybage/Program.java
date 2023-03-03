@@ -13,43 +13,44 @@ import java.io.PrintWriter;
  * exception
  */
 
-class Test2{
-	public void m1(){
+class Test2 {
+	public void m1() {
 		throw new Error();
 	}
 }
 
-class Test1{
+class Test1 {
 	public void m1() throws Exception {
 		throw new Exception();
 	}
 }
 
-class Test extends RuntimeException{
+class Test extends RuntimeException {
 	public void m1() throws Test {
 		System.out.println("m1");
 	}
 }
 
 public class Program {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		Test2 t = new Test2();
 		t.m1();
 	}
-	
+
 	public static void main8(String[] args) throws Exception {
 		Test1 t = new Test1();
 		t.m1();
 	}
-	
+
 	public static void main7(String[] args) {
 		Test t = new Test();
 		t.m1();
 	}
-	
+
 	public void main6(String[] args) {
 		doStuff();
 	}
+
 	public static void doStuff() {
 		try {
 			doMoreStuff();
@@ -58,8 +59,9 @@ public class Program {
 			e.printStackTrace();
 		}
 	}
+
 	public static void doMoreStuff() throws InterruptedException {
-			Thread.sleep(1000);
+		Thread.sleep(1000);
 	}
 
 //	public static void main5(String[] args) throws InterruptedException {

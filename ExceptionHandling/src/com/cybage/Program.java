@@ -1,25 +1,24 @@
 package com.cybage;
 
 /**
- * Try: to maintain risky code.
- * catch: to maintain exception handling code.
- * finally : to maintain cleanup code.
- * throw: to handover our created exception object to the jvm mannually.
- * throws: To delegate the responsibility of exception handling to the caller.
+ * Try: to maintain risky code. catch: to maintain exception handling code.
+ * finally : to maintain cleanup code. throw: to handover our created exception
+ * object to the jvm mannually. throws: To delegate the responsibility of
+ * exception handling to the caller.
  * 
- * */
+ */
 
-
-public class Program{
+public class Program {
 	public static void main(String[] args) {
 		doStuff();
 	}
-	
+
 	public static void doStuff() {
 		doMoreStuff();
 	}
+
 	public static void doMoreStuff() {
-		System.out.println("Hello");		//Hello
+		System.out.println("Hello"); // Hello
 	}
 }
 
