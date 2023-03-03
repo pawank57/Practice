@@ -20,12 +20,17 @@ class myRunnable implements Runnable {
 public class Program {
 	public static void main(String[] args) {
 		myRunnable r = new myRunnable();
-//		Thread t = new Thread(r);
+		Thread t = new Thread(r);
 		r.run(); // no new thread will be created and myRunnable run method will be executed like
 					// normal method call.
-		for (int i = 0; i <= 5; i++) {
-			System.out.println("main thread."); // executed by main thread.
-
+		try {
+			t.sleep(1000);
+			for (int i = 0; i <= 5; i++) {
+				System.out.println("main thread."); // executed by main thread.
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 

@@ -10,7 +10,7 @@ package com.cybage;
 
 /**
  * Defining a thread By extending thread class
- * */
+ */
 class myThread extends Thread {
 	public void run() {
 		System.out.println("No-Arg run method");
