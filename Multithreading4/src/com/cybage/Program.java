@@ -1,7 +1,7 @@
 package com.cybage;
 
-class myThread extends Thread{
-	
+class myThread extends Thread {
+
 }
 
 public class Program {
@@ -10,5 +10,7 @@ public class Program {
 		myThread t = new myThread();
 		String thread = t.getName();
 		System.out.println(thread);
+		t.currentThread().setName("Cybage");
+		System.out.println(t.currentThread().getName());
 	}
 }
